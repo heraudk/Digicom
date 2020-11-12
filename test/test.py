@@ -109,6 +109,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 #formulaire age:
 #age = int(input("Quel est votre age ? "))
 
@@ -121,10 +130,8 @@
 
 
 
-
-
 #Multiplication avec while:
-#a=int(input("enter table number"))
+#a=int(input("entrer un chiffre :"))
 #b=10
 #i=1
 #while i<=b:
@@ -133,14 +140,22 @@
 
 
 
-
-#multiplication avec for/in:
+#multiplication avec for/in methode 1 :
 #def multiplication(valeur, max=10):
     #for i in range(1, max + 1) :
         #print(valeur * i, end=" ")
     #print()
 
-#multiplication (5)
+#multiplication (7)
+
+
+
+
+#multiplication avec for/in méthode 2 :
+#n = int(input("entrer un chiffre :"))
+#print("La table de multiplication de : ", n," est :")
+#for i in range(1,10):
+    #print(i , " x ", n, " = ",i*n)
 
 
 
